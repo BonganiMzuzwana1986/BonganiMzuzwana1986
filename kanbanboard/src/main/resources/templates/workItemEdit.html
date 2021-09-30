@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Work Item</title>
+	</head>
+	<body>
+	   <div>
+	      <form id="workItemForm" name="workItemForm" action="#" th:object="${workItem}" th:action="@{/workItemEdit?pk=__${workItem.PK}__}" method="post">
+	         <div>
+	            <hr noshade="noshade"/>
+               <a th:href="@{home}">Cancel</a>
+               <button type="submit">Save</button>
+               <hr noshade="noshade"/>
+	         </div>
+	         
+	         <h2>Edit/Create Work Item</h2> 
+	         
+	         <div th:if="${#fields.hasAnyErrors() == true}">
+	            <p th:each="err : ${#fields.allErrors()}" th:utext="${err}">If found, errors are listed here...</p>
+	         </div>
+	         
+            <table class="editTable">
+               <tr>
+                  <td>Title: </td>
+                  <td><input type="text" th:field="*{title}" style="width:100px;"/>&nbsp;*</td>
+               </tr>
+               <tr>
+                  <td>Description: </td>
+                  <td><input type="text" th:field="*{description}" style="width:100px;"/>&nbsp;*</td>
+               </tr>
+               <tr>
+                  <td>User</td>
+                  <td th:if="${userList != null and #lists.size(userList) gt 1}">
+                  	 <select th:field="*{userID}" id="userList">
+                        <option th:each="user : ${userList}" th:value="${user.PK}" th:selected="${user.PK == workItem.userID}" th:text="${user.name}"></option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Status</td>
+                  <td th:if="${statusList != null and #lists.size(statusList) gt 1}">
+                  	 <select th:field="*{statusID}" id="statusList">
+                        <option th:each="status : ${statusList}" th:value="${status.PK}" th:selected="${status.PK == workItem.statusID}" th:text="${status.name}"></option>
+                     </select>
+                  </td>
+               </tr>
+            </table>
+	      </form>
+	   </div>
+	</body>
+</html>

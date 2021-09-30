@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://wwwleaf.org">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Kanban Board</title>
+	</head>
+	<body>
+		<h4 th:text="'Welcome to Work Items for the User: ' + ${user}"></h4>
+		
+        <div>
+           <hr noshade="noshade"/>
+              <a th:href="@{/home}">Back</a>
+           <hr noshade="noshade"/>
+        </div>				
+		
+		<div>
+         	<h2>List of Work Items</h2>
+			<table id="workItemTable" th:fragment="workItemTable" th:if="${#lists.isEmpty(workItemList) == false}" style="margin-top: 15px;width:930px;">
+				<thead>
+	               <tr>
+	                  <td>Identifier</td>
+	                  <td>Title</td>
+	                  <td>Description</td>
+	                  <td>User</td>
+	                  <td>Status</td>
+	                  <td>Action</td>
+	               </tr>
+	            </thead>
+	            <tbody>
+	               <tr th:each="workItem : ${workItemList}">
+					  <td th:text="${workItem.PK}"></td>	               
+	                  <td th:text="${workItem.title}"></td>
+	                  <td th:text="${workItem.description}"></td>
+	                  <td th:text="${workItem.user.name}"></td>
+	                  <td th:text="${workItem.status.name}"></td>
+	                  <td><a th:href="@{/workItemEdit(pk=${workItem.PK})}">Edit Work Item</a></td>
+	               </tr>
+	            </tbody>
+			</table>
+		</div>	
+		
+	</body>
+</html>

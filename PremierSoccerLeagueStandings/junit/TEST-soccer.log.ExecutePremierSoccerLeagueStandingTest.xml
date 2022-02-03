@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="BONGANI" name="soccer.log.ExecutePremierSoccerLeagueStandingTest" skipped="0" tests="1" time="0.093" timestamp="2022-02-03T19:02:43">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="PROFIDA" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="os.name" value="Windows 10" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\programs\Dev\JDK\jre\lib\resources.jar;C:\programs\Dev\JDK\jre\lib\rt.jar;C:\programs\Dev\JDK\jre\lib\sunrsasign.jar;C:\programs\Dev\JDK\jre\lib\jsse.jar;C:\programs\Dev\JDK\jre\lib\jce.jar;C:\programs\Dev\JDK\jre\lib\charsets.jar;C:\programs\Dev\JDK\jre\lib\jfr.jar;C:\programs\Dev\JDK\jre\classes" />
+    <property name="env.COMPUTERNAME" value="BONGANI" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\programs\Dev\ant\bin\.." />
+    <property name="java.runtime.version" value="1.8.0_212-b10" />
+    <property name="env.lib" value="D:\profidaweb\profidaweb\WEB-INF\lib" />
+    <property name="env.WEB_COMPILE_CLASS_PATH7" value="D:\profidaweb\profidaweb\WEB-INF\lib\wss4j-policy.jar;D:\profidaweb\profidaweb\WEB-INF\lib\wss4j-ws-security-common.jar;D:\profidaweb\profidaweb\WEB-INF\lib\wss4j-ws-security-dom.jar;D:\profidaweb\profidaweb\WEB-INF\lib\wss4j-ws-security-policy-stax.jar;D:\profidaweb\profidaweb\WEB-INF\lib\wss4j-ws-security-stax.jar;D:\profidaweb\profidaweb\WEB-INF\lib\fse-v2-webservice.jar;D:\profidaweb\test\browsertest\lib\hamcrest-library-1.3.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-security-data.jar;D:\profidaweb\profidaweb\WEB-INF\lib\java-jwt.jar;D:\profidaweb\profidaweb\WEB-INF\lib\user-agent-detector.jar;D:\profidaweb\profidaweb\WEB-INF\lib\simpleclient.jar;D:\profidaweb\profidaweb\WEB-INF\lib\simpleclient_common.jar;D:\profidaweb\profidaweb\WEB-INF\lib\simpleclient_hotspot.jar;D:\profidaweb\profidaweb\WEB-INF\lib\simpleclient_log4j2.jar;D:\profidaweb\profidaweb\WEB-INF\lib\simpleclient_servlet.jar;D:\profidaweb\profidaweb\WEB-INF\lib\simpleclient_spring_web.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-frontend-simple.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jcraft-jsch.jar;" />
+    <property name="env.WEB_COMPILE_CLASS_PATH6" value="D:\profidaweb\profidaweb\WEB-INF\lib\cxf-core.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-bindings-soap.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-bindings-xml.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-databinding-jaxb.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-databinding-xmlbeans.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-frontend-jaxrs.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-frontend-jaxws.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-frontend-simple.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-security.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-transports-http.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-ws-addr.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-ws-policy.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-ws-security.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf-rt-wsdl.jar;D:\profidaweb\profidaweb\WEB-INF\lib\javax.ws.rs-api.jar;D:\profidaweb\profidaweb\WEB-INF\lib\wss4j-bindings.jar" />
+    <property name="env.HOMEPATH" value="\Users\bmzuzwana" />
+    <property name="env.WEB_COMPILE_CLASS_PATH5" value="D:\profidaweb\profidaweb\WEB-INF\lib\aspectjweaver.jar;D:\profidaweb\profidaweb\WEB-INF\lib\asterisk-java.jar;D:\profidaweb\profidaweb\WEB-INF\lib\avalon-framework.jar;D:\profidaweb\profidaweb\WEB-INF\lib\backport-util-concurrent.jar;D:\profidaweb\profidaweb\WEB-INF\lib\barcode4j.jar;D:\profidaweb\profidaweb\WEB-INF\lib\barcode4j-fop-ext.jar;D:\profidaweb\profidaweb\WEB-INF\lib\batik.jar;D:\profidaweb\profidaweb\WEB-INF\lib\bcprov-jdk16.jar;D:\profidaweb\profidaweb\WEB-INF\lib\castor-core.jar;D:\profidaweb\profidaweb\WEB-INF\lib\castor-xml.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cewolf.jar;D:\profidaweb\profidaweb\WEB-INF\lib\Chart2D.jar;D:\profidaweb\profidaweb\WEB-INF\lib\colt.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-beanutils.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-codec.jar;D:\programs\tomcat\lib\jsp-api.jar;D:\programs\tomcat\lib\servlet-api.jar;D:\profidaweb\profidaweb\WEB-INF\lib-endorsed\xerces.jar;D:\profidaweb\profidaweb\WEB-INF\lib-endorsed\xml-apis.jar;D:\profidaweb\profidaweb\WEB-INF\lib-endorsed\xml-apis-ext.jar;D:\profidaweb\profidaweb\WEB-INF\lib-endorsed\resolver.jar;D:\profidaweb\profidaweb\WEB-INF\lib-endorsed\serializer.jar;D:\profidaweb\profidaweb\WEB-INF\lib-endorsed\stax2-api.jar" />
+    <property name="env.WEB_COMPILE_CLASS_PATH4" value="D:\profidaweb\profidaweb\WEB-INF\lib\spring.web.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.webflow.binding.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.webflow.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.webflow.js.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.webflow.js.resources.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.webmvc.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-data-commons.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-data-mongodb.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-data-mongodb-log4j.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-security-acl.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-security-aspects.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-security-config.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-security-core.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-security-taglibs.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring-security-web.jar;D:\profidaweb\profidaweb\WEB-INF\lib\sqljdbc4.jar;D:\profidaweb\profidaweb\WEB-INF\lib\standard.jar;D:\profidaweb\profidaweb\WEB-INF\lib\woodstox-core-asl.jar;D:\profidaweb\profidaweb\WEB-INF\lib\wsdl4j.jar;D:\profidaweb\profidaweb\WEB-INF\lib\wss4j.jar;D:\profidaweb\profidaweb\WEB-INF\lib\xalan.jar;D:\profidaweb\profidaweb\WEB-INF\lib\xmlbeans.jar;D:\profidaweb\profidaweb\WEB-INF\lib\xml-resolver.jar;D:\profidaweb\profidaweb\WEB-INF\lib\xmlschema.jar;D:\profidaweb\profidaweb\WEB-INF\lib\xmlsec.jar;D:\profidaweb\profidaweb\WEB-INF\lib\xpp3_min.jar;D:\profidaweb\profidaweb\WEB-INF\lib\xstream.jar;D:\profidaweb\profidaweb\WEB-INF\lib\akka-actor.jar;D:\profidaweb\profidaweb\WEB-INF\lib\akka-config.jar;D:\profidaweb\profidaweb\WEB-INF\lib\akka-testkit.jar;D:\profidaweb\profidaweb\WEB-INF\lib\aopalliance.jar;D:\profidaweb\profidaweb\WEB-INF\lib\aspectjrt.jar" />
+    <property name="env.WEB_COMPILE_CLASS_PATH3" value="D:\profidaweb\profidaweb\WEB-INF\lib\junit.jar;D:\profidaweb\profidaweb\WEB-INF\lib\log4j-1.2-api.jar;D:\profidaweb\profidaweb\WEB-INF\lib\log4j-api.jar;D:\profidaweb\profidaweb\WEB-INF\lib\log4j-core.jar;D:\profidaweb\profidaweb\WEB-INF\lib\log4j-slf4j-impl.jar;D:\profidaweb\profidaweb\WEB-INF\lib\log4j-web.jar;D:\profidaweb\profidaweb\WEB-INF\lib\mail.jar;D:\profidaweb\profidaweb\WEB-INF\lib\mongo.jar;D:\profidaweb\profidaweb\WEB-INF\lib\neethi.jar;D:\profidaweb\profidaweb\WEB-INF\lib\owasp-esapi-full-java.jar;D:\profidaweb\profidaweb\WEB-INF\lib\paradox-embedded-jdbc40.jar;D:\profidaweb\profidaweb\WEB-INF\lib\pdfbox.jar;D:\profidaweb\profidaweb\WEB-INF\lib\pdfbox-fontbox.jar;D:\profidaweb\profidaweb\WEB-INF\lib\pdfbox-jempbox.jar;D:\profidaweb\profidaweb\WEB-INF\lib\poi.jar;D:\profidaweb\profidaweb\WEB-INF\lib\poi-contrib.jar;D:\profidaweb\profidaweb\WEB-INF\lib\poi-ooxml.jar;D:\profidaweb\profidaweb\WEB-INF\lib\poi-ooxml-schemas.jar;D:\profidaweb\profidaweb\WEB-INF\lib\postgresql.jar;D:\profidaweb\profidaweb\WEB-INF\lib\profidacore.jar;D:\profidaweb\profidaweb\WEB-INF\lib\profidalaramessage.jar;D:\profidaweb\profidaweb\WEB-INF\lib\quartz.jar;D:\profidaweb\profidaweb\WEB-INF\lib\ristretto.jar;D:\profidaweb\profidaweb\WEB-INF\lib\rome.jar;D:\profidaweb\profidaweb\WEB-INF\lib\scala-library.jar;D:\profidaweb\profidaweb\WEB-INF\lib\slf4j-akka.jar;D:\profidaweb\profidaweb\WEB-INF\lib\slf4j-api.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.aop.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.aspects.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.beans.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.context.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.context.support.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.core.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.expression.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.jdbc.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.oxm.jar;D:\profidaweb\profidaweb\WEB-INF\lib\spring.transaction.jar" />
+    <property name="env.WEB_COMPILE_CLASS_PATH2" value="D:\profidaweb\profidaweb\WEB-INF\lib\commons-collections.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-dbcp.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-digester.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-fileupload.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-io.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-lang.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-logging.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-pool.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-validator.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-xmlgraphics.jar;D:\profidaweb\profidaweb\WEB-INF\lib\commons-net.jar;D:\profidaweb\profidaweb\WEB-INF\lib\cxf.jar;D:\profidaweb\profidaweb\WEB-INF\lib\displaytag.jar;D:\profidaweb\profidaweb\WEB-INF\lib\displaytag-export-poi.jar;D:\profidaweb\profidaweb\WEB-INF\lib\disruptor.jar;D:\profidaweb\profidaweb\WEB-INF\lib\dom4j.jar;D:\profidaweb\profidaweb\WEB-INF\lib\dwr.jar;D:\profidaweb\profidaweb\WEB-INF\lib\ehcache.jar;D:\profidaweb\profidaweb\WEB-INF\lib\fop.jar;D:\profidaweb\profidaweb\WEB-INF\lib\hamcrest-core.jar;D:\profidaweb\profidaweb\WEB-INF\lib\httpclient.jar;D:\profidaweb\profidaweb\WEB-INF\lib\httpcore.jar;D:\profidaweb\profidaweb\WEB-INF\lib\itext.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jasypt.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jasypt-spring.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jaybird.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jcifs.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jcip-annotations.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jcl-over-slf4j.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jcommon.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jdom.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jep.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jep-ext.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jettison.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jfreechart.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jsr311-api.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jsr330-di.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jstl.jar;D:\profidaweb\profidaweb\WEB-INF\lib\jta.jar" />
+    <property name="env.WEB_COMPILE_CLASS_PATH1" value="D:\profidaweb\src;" />
+    <property name="user.name" value="bmzuzwana" />
+    <property name="user.language" value="en" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\programs\Dev\JDK\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="PremierSoccerLeagueStandings" />
+    <property name="java.version" value="1.8.0_212" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 10, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\BMZUZW~1\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\programs\Dev\JDK\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\programs\Dev\JDK\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="C:/PremierSoccerLeagueStandings" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.JAVACMD" value="C:\programs\Dev\JDK\bin\java.exe" />
+    <property name="java.class.version" value="52.0" />
+    <property name="env.DESKTOP_COMPILE_CLASS_PATH3" value="C:\profida\jre\lib\ext\barcode4j-fop-ext.jar;C:\profida\jre\lib\ext\batik.jar;C:\profida\jre\lib\ext\bcprov-jdk16.jar;C:\profida\jre\lib\ext\Chart2D.jar;C:\profida\jre\lib\ext\cldrdata.jar;C:\profida\jre\lib\ext\colt.jar;C:\profida\jre\lib\ext\commons-beanutils-core.jar;C:\profida\jre\lib\ext\commons-codec.jar;C:\profida\jre\lib\ext\commons-collections.jar;C:\profida\jre\lib\ext\commons-fileupload.jar;C:\profida\jre\lib\ext\commons-httpclient.jar;C:\profida\jre\lib\ext\commons-io.jar;C:\profida\jre\lib\ext\commons-lang.jar;C:\profida\jre\lib\ext\commons-logging.jar;C:\profida\jre\lib\ext\commons-xmlgraphics.jar;C:\profida\jre\lib\ext\cxf.jar;C:\profida\jre\lib\ext\dnsns.jar;C:\profida\jre\lib\ext\firebirdsql-full.jar;C:\profida\jre\lib\ext\fop.jar;C:\profida\jre\lib\ext\ftp.jar;C:\profida\jre\lib\ext\iText.jar;C:\profida\jre\lib\ext\jaccess.jar;C:\profida\jre\lib\ext\jacob.jar;C:\profida\jre\lib\ext\jce1_2_2.jar;C:\profida\jre\lib\ext\jcommon.jar;C:\profida\jre\lib\ext\jconn3.jar;C:\profida\jre\lib\ext\jep.jar;C:\profida\jre\lib\ext\jep-ext.jar;C:\profida\jre\lib\ext\jettison.jar;C:\profida\jre\lib\ext\jfreechart.jar;C:\profida\jre\lib\ext\jfxrt.jar;C:\profida\jre\lib\ext\jgl3.1.0.jar;C:\profida\jre\lib\ext\jh.jar;C:\profida\jre\lib\ext\jta.jar;C:\profida\jre\lib\ext\LatteLibWin.jar;C:\profida\jre\lib\ext\ldapsec.jar;" />
+    <property name="user.country" value="ZA" />
+    <property name="env.DESKTOP_COMPILE_CLASS_PATH2" value="C:\profida\jre\lib\ext\localedata.jar;C:\profida\jre\lib\ext\log4j.jar;C:\profida\jre\lib\ext\mongo.jar;C:\profida\jre\lib\ext\nashorn.jar;C:\profida\jre\lib\ext\neethi.jar;C:\profida\jre\lib\ext\poi.jar;C:\profida\jre\lib\ext\poi-contrib.jar;C:\profida\jre\lib\ext\poi-ooxml.jar;C:\profida\jre\lib\ext\poi-ooxml-schemas.jar;C:\profida\jre\lib\ext\quartz.jar;C:\profida\jre\lib\ext\serializer.jar;C:\profida\jre\lib\ext\slf4j-api.jar;C:\profida\jre\lib\ext\slf4j-log4j12.jar;C:\profida\jre\lib\ext\spring.aop.jar;C:\profida\jre\lib\ext\spring.beans.jar;C:\profida\jre\lib\ext\spring.context.jar;C:\profida\jre\lib\ext\spring.context.support.jar;C:\profida\jre\lib\ext\spring.core.jar;C:\profida\jre\lib\ext\spring.expression.jar;C:\profida\jre\lib\ext\spring.transaction.jar;C:\profida\jre\lib\ext\spring.web.jar;C:\profida\jre\lib\ext\spring-data-commons-core.jar;C:\profida\jre\lib\ext\spring-data-mongodb.jar;C:\profida\jre\lib\ext\spring-security-core.jar;C:\profida\jre\lib\ext\stax2-api.jar;C:\profida\jre\lib\ext\substance.jar;C:\profida\jre\lib\ext\sunec.jar;C:\profida\jre\lib\ext\sunjce_provider.jar;C:\profida\jre\lib\ext\sunmscapi.jar;C:\profida\jre\lib\ext\sunpkcs11.jar;C:\profida\jre\lib\ext\woodstox-core-asl.jar;C:\profida\jre\lib\ext\wsdl4j.jar;C:\profida\jre\lib\ext\wss4j.jar;C:\profida\jre\lib\ext\xalan.jar;C:\profida\jre\lib\ext\xerces.jar;C:\profida\jre\lib\ext\xml-apis.jar;C:\profida\jre\lib\ext\xml-apis-ext.jar;C:\profida\jre\lib\ext\xml-resolver.jar;C:\profida\jre\lib\ext\xmlschema.jar;C:\profida\jre\lib\ext\xmlsec.jar;C:\profida\jre\lib\ext\zipfs.jar;C:\profida\jre\lib\ext\access-bridge-32.jar;C:\profida\jre\lib\ext\aopalliance.jar;C:\profida\jre\lib\ext\asm.jar;C:\profida\jre\lib\ext\asterisk-java.jar;C:\profida\jre\lib\ext\avalon-framework.jar;C:\profida\jre\lib\ext\backport-util-concurrent.jar;C:\profida\jre\lib\ext\barcode4j.jar;" />
+    <property name="env.DESKTOP_COMPILE_CLASS_PATH1" value="C:\profida;" />
+    <property name="java.home" value="C:\programs\Dev\JDK\jre" />
+    <property name="env.PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\bmzuzwana\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\PremierSoccerLeagueStandings\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="yes" />
+    <property name="env.=::" value="::\" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.212-b10" />
+    <property name="env.USERPROFILE" value="C:\Users\bmzuzwana" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\programs\Dev\ant\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\programs\Dev\JDK11\" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\BMZUZW~1\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type.PremierSoccerLeagueStandings" value="file" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="env.AZURE_STORAGE_CONNECTION_STRING" value="DefaultEndpointsProtocol=https;AccountName=profida;AccountKey=rWS0Jg0i8JrWdAuAZ8aH7uyz9sejAlrFK9/C/GdClBqqt7mRPLWsBCyRo0XHAUgdA0cXEolI+douP6STwcdcbA==;EndpointSuffix=core.windows.net" />
+    <property name="user.home" value="C:\Users\bmzuzwana" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.CLASSPATH" value="C:\profida;C:\profidaweb\src;C:\profidaweb\test;" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\programs\Dev\JDK\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\programs\Dev\JDK11\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\programs\Dev\ant\bin;C:\programs\Dev\JDK\jre\bin;C:\adb;C:\Program Files\PostgreSQL11\pg11\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\programs\Dev\Tortoise\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\bmzuzwana\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="12" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.USERDNSDOMAIN" value="profida.local" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="java.class.path" value="C:\PremierSoccerLeagueStandings\classes;C:\PremierSoccerLeagueStandings\libraries\org.junit.jupiter.api_5.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.jupiter.engine_5.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.jupiter.migrationsupport_5.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.jupiter.params_5.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.platform.commons_1.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.platform.engine_1.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.platform.launcher_1.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.platform.runner_1.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.platform.suite.api_1.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit.vintage.engine_5.4.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.opentest4j_1.1.1.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.apiguardian_1.0.0.v20190212-2109.jar;C:\PremierSoccerLeagueStandings\libraries\org.junit_4.12.0.v201504281640\junit.jar;C:\PremierSoccerLeagueStandings\libraries\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\profida;C:\programs\Dev\ant\lib\junit-4.11.jar;C:\programs\Dev\ant\lib\ant-launcher.jar;C:\programs\Dev\ant\lib\ant.jar;C:\programs\Dev\ant\lib\ant-junit.jar;C:\programs\Dev\ant\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner soccer.log.ExecutePremierSoccerLeagueStandingTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\PremierSoccerLeagueStandings\junit\TEST-soccer.log.ExecutePremierSoccerLeagueStandingTest.xml crashfile=C:\PremierSoccerLeagueStandings\junitvmwatcher770824855197852224.properties propsfile=C:\PremierSoccerLeagueStandings\junit6158657359616307075.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\SERVER4" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.OneDrive" value="C:\Users\bmzuzwana\OneDrive" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\programs\Dev\ant\bin\.." />
+    <property name="java.io.tmpdir" value="C:\Users\BMZUZW~1\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="9e0a" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.ChocolateyInstall" value="C:\ProgramData\chocolatey" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" ExecutePremierSoccerLeagueStandingTest" />
+    <property name="java.ext.dirs" value="C:\programs\Dev\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\bmzuzwana\AppData\Local" />
+    <property name="user.dir" value="C:\PremierSoccerLeagueStandings" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:\programs\Dev\JDK11\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\programs\Dev\ant\bin;C:\programs\Dev\JDK\jre\bin;C:\adb;C:\Program Files\PostgreSQL11\pg11\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\programs\Dev\Tortoise\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\bmzuzwana\AppData\Local\Microsoft\WindowsApps;" />
+    <property name="basedir" value="C:\PremierSoccerLeagueStandings" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\programs\Dev\ant\lib\ant.jar" />
+    <property name="env.USERNAME" value="bmzuzwana" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="env.USERDOMAIN" value="PROFIDA" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\PremierSoccerLeagueStandings" />
+    <property name="ant.project.invoked-targets" value="ExecutePremierSoccerLeagueStandingTest" />
+    <property name="ant.file.PremierSoccerLeagueStandings" value="C:\PremierSoccerLeagueStandings\build.xml" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="soccer.log.ExecutePremierSoccerLeagueStandingTest" name="testAccuratePremierSoccerLeagueStanding" time="0.046" />
+  <system-out><![CDATA[1. Tarantulas, 6 pts
+2. Lions, 5 pts
+3. FC Awesome, 1 pts
+4. Snakes, 1 pts
+5. Grouches, 0 pts
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

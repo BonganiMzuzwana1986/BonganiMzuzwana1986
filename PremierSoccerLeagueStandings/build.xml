@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="PremierSoccerLeagueStandings">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="C:/PremierSoccerLeagueStandings"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="JUnit 5.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.jupiter.api_5.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.jupiter.engine_5.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.jupiter.migrationsupport_5.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.jupiter.params_5.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.platform.commons_1.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.platform.engine_1.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.platform.launcher_1.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.platform.runner_1.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.platform.suite.api_1.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit.vintage.engine_5.4.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.opentest4j_1.1.1.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.apiguardian_1.0.0.v20190212-2109.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/libraries/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="PremierSoccerLeagueStandings.classpath">
+        <pathelement location="classes"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="classes"/>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="test">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <src path="test"/>
+            <classpath refid="PremierSoccerLeagueStandings.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target name="ExecutePremierSoccerLeagueStanding">
+        <java classname="soccer.log.ExecutePremierSoccerLeagueStanding" failonerror="true" fork="yes">
+            <classpath refid="PremierSoccerLeagueStandings.classpath"/>
+            <arg file="${args}" />
+        </java>
+    </target>
+    <target name="ExecutePremierSoccerLeagueStandingTest.test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="soccer.log.ExecutePremierSoccerLeagueStandingTest" todir="${junit.output.dir}"/>
+            <classpath refid="PremierSoccerLeagueStandings.classpath"/>
+        </junit>
+    </target>
+    <target name="ExecutePremierSoccerLeagueStandingTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="soccer.log.ExecutePremierSoccerLeagueStandingTest" todir="${junit.output.dir}"/>
+            <classpath refid="PremierSoccerLeagueStandings.classpath"/>
+        </junit>
+    </target>
+    <target name="ExecutePremierSoccerLeagueStandingTest.testIsOnePair">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="soccer.log.ExecutePremierSoccerLeagueStandingTest" todir="${junit.output.dir}"/>
+            <classpath refid="PremierSoccerLeagueStandings.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
